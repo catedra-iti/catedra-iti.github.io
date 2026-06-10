@@ -147,7 +147,7 @@ const profesoriCatedra = [
   {
     name: 'Pînzari Dumitru',
     role: 'inginer-programator',
-    field: 'Dezvoltare software',
+    field: 'inginer progamator',
     subjects: '',
     email: 'pinzari.dumitru@upsc.md',
     researchTags: ['Programare']
