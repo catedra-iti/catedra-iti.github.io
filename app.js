@@ -1549,7 +1549,7 @@ function PaginaStudenti() {
           { file: 'Premianti Olimpada 2023.jpg', label: 'Premianți Olimpiadă 2023' },
           { file: 'Premianti Olimpada 2024.jpg', label: 'Premianți Olimpiadă 2024' },
           { file: 'Premianti Olimpiada 2026(1).png', label: 'Premianți Olimpiadă 2026' },
-          { file: 'Premianti Olimpiada 2026(1).png', label: 'Premianți Olimpiadă 2026' },
+          { file: 'Premianti Olimpiada 2026(2).png', label: 'Premianți Olimpiadă 2026' },
         ].map(item => html`
           <a key=${item.file}
              href=${'./fotografii/' + encodeURIComponent(item.file)}
