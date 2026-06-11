@@ -246,62 +246,31 @@ const evenimenteIstorice = [
   date: '6 mai 2026',
   title: 'Olimpiada Interuniversitară de Informatică – ediția a XV-a',
   notes: [
-    {
-      note: 'Facultatea de Fizică, Matematică și Tehnologii Informaționale a Universității Pedagogice de Stat "Ion Creangă" din Chișinău a organizat cu succes "Olimpiada interuniversitară de informatică – ediția a XV-a", un eveniment academic dedicat studenților pasionați de informatică, programare și tehnologii informaționale.'
-    },
-    {
-      note: 'Evenimentul a fost organizat de către Catedra Informatică și Tehnologii Informaționale, una dintre subdiviziunile academice importante ale facultății, care contribuie activ la formarea specialiștilor în domeniul informaticii și al tehnologiilor digitale.'
-    },
-    {
-      note: 'Cadre didactice organizatoare:'
-    },
-    {
-      note: '• Liubomir Chiriac – doctor habilitat, profesor universitar, șef de catedră, membru corespondent al AȘM;'
-    },
-    {
-      note: '• Andrei Braicov – profesor universitar, decan al facultății;'
-    },
-    {
-      note: '• Angela Globa, Ala Gașnaș, Natalia Joșu, Maria Pavel, Teodora Vascan – doctori, conferențiari universitari;'
-    },
-    {
-      note: '• Marina Bostan, Olesea Sîrghi – lectori universitari, doctori în științe ale educației.'
-    },
-    {
-      note: 'La competiție au participat și studenți de la Universitatea de Stat "Alecu Russo" din Bălți, însoțiți de prof. Olesea Skutnițki.'
-    },
-    {
-      note: 'Rezultate studenți UPSC:'
-    },
-    {
-      note: 'Anul I:'
-    },
-    {
-      note: '- Goncear Vladimir – locul II;'
-    },
-    {
-      note: '- Didic Victoria, Movilă Ștefan, Sandu Mihai – locul III;'
-    },
-    {
-      note: '- Buză Maria-Magdalena – mențiune.'
-    },
-    {
-      note: 'Anul II–IV:'
-    },
-    {
-      note: '- Sandu Florin – locul I;'
-    },
-    {
-      note: '- Cantea Aura, Sârbu Daniela, Păduraru Laurențiu – locul II;'
-    },
-    {
-      note: '- Zalevschi Pavel, Josan Alexandru, Grecica Maxim, Zugravu Nicoleta, Pleșca Alexandrina – locul III;'
-    },
-    {
-      note: '- Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.'
-    }
+    'Facultatea de Fizică, Matematică și Tehnologii Informaționale a Universității Pedagogice de Stat "Ion Creangă" din Chișinău a organizat cu succes "Olimpiada interuniversitară de informatică – ediția a XV-a", un eveniment academic dedicat studenților pasionați de informatică, programare și tehnologii informaționale.',
+
+    'Evenimentul a fost organizat de către Catedra Informatică și Tehnologii Informaționale, una dintre subdiviziunile academice importante ale facultății, care contribuie activ la formarea specialiștilor în domeniul informaticii și al tehnologiilor digitale.',
+
+    'Cadre didactice organizatoare:',
+    '• Liubomir Chiriac – doctor habilitat, profesor universitar, șef de catedră, membru corespondent al AȘM;',
+    '• Andrei Braicov – profesor universitar, decan al facultății;',
+    '• Angela Globa, Ala Gașnaș, Natalia Joșu, Maria Pavel, Teodora Vascan – doctori, conferențiari universitari;',
+    '• Marina Bostan, Olesea Sîrghi – lectori universitari, doctori în științe ale educației.',
+
+    'La competiție au participat și studenți de la Universitatea de Stat "Alecu Russo" din Bălți, însoțiți de prof. Olesea Skutnițki.',
+
+    'Rezultate studenți UPSC:',
+    'Anul I:',
+    '- Goncear Vladimir – locul II;',
+    '- Didic Victoria, Movilă Ștefan, Sandu Mihai – locul III;',
+    '- Buză Maria-Magdalena – mențiune.',
+
+    'Anul II–IV:',
+    '- Sandu Florin – locul I;',
+    '- Cantea Aura, Sârbu Daniela, Păduraru Laurențiu – locul II;',
+    '- Zalevschi Pavel, Josan Alexandru, Grecica Maxim, Zugravu Nicoleta, Pleșca Alexandrina – locul III;',
+    '- Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.'
   ]
-},
+}
   {
     date: '15 octombrie 1985',
     title: 'Constituirea Catedrei Informatică și Tehnică de Calcul',
