@@ -301,7 +301,7 @@ const evenimenteIstorice = [
       note: '- Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.'
     }
   ]
-}
+},
   {
     date: '15 octombrie 1985',
     title: 'Constituirea Catedrei Informatică și Tehnică de Calcul',
