@@ -241,32 +241,35 @@ const studyPrograms = [
   }
 ];
 
-const evenimenteIstorice = [  {
-    date: '6 mai 2026',
-    title: 'Olimpiada Interuniversitară de Informatică – ediția a XV-a',
-    note: `Facultatea de Fizică, Matematică și Tehnologii Informaționale a Universității Pedagogice de Stat "Ion Creangă" din Chișinău a organizat cu succes "Olimpiada interuniversitară de informatică – ediția a XV-a", un eveniment academic dedicat studenților pasionați de informatică, programare și tehnologii informaționale.<br /><br />
-    
-    Evenimentul a fost organizat de către Catedra Informatică și Tehnologii Informaționale, una dintre subdiviziunile academice importante ale facultății, care contribuie activ la formarea specialiștilor în domeniul informaticii și al tehnologiilor digitale.<br /><br />
-    
-    <strong>Cadre didactice organizatoare:</strong><br />
-    • Liubomir Chiriac – doctor habilitat, profesor universitar, șef de catedră, membru corespondent al AȘM;<br />
-    • Andrei Braicov – profesor universitar, decan al facultății;<br />
-    • Angela Globa, Ala Gașnaș, Natalia Joșu, Maria Pavel, Teodora Vascan – doctori, conferențiari universitari;<br />
-    • Marina Bostan, Olesea Sîrghi – lectori universitari, doctori în științe ale educației.<br /><br />
-    
-    La competiție au participat și studenți de la Universitatea de Stat "Alecu Russo" din Bălți, însoțiți de prof. Olesea Skutnițki.<br /><br />
-    
-    <strong>Rezultate studenți UPSC:</strong><br />
-    <strong>Anul I:</strong><br />
-    - Goncear Vladimir – locul II;<br />
-    - Didic Victoria, Movilă Ștefan, Sandu Mihai – locul III;<br />
-    - Buză Maria-Magdalena – mențiune.<br /><br />
-    
-    <strong>Anul II–IV:</strong><br />
-    - Sandu Florin – locul I;<br />
-    - Cantea Aura, Sârbu Daniela, Păduraru Laurențiu – locul II;<br />
-    - Zalevschi Pavel, Josan Alexandru, Grecica Maxim, Zugravu Nicoleta, Pleșca Alexandrina – locul III;<br />
-    - Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.`
+const evenimenteIstorice = [  
+{
+  date: '6 mai 2026',
+  title: 'Olimpiada Interuniversitară de Informatică – ediția a XV-a',
+  note: `Facultatea de Fizică, Matematică și Tehnologii Informaționale a Universității Pedagogice de Stat „Ion Creangă” din Chișinău a organizat cu succes „Olimpiada interuniversitară de informatică – ediția a XV-a”, un eveniment academic dedicat studenților pasionați de informatică, programare și tehnologii informaționale.
+
+Evenimentul a fost organizat de către Catedra Informatică și Tehnologii Informaționale, una dintre subdiviziunile academice importante ale facultății, care contribuie activ la formarea specialiștilor în domeniul informaticii și al tehnologiilor digitale.
+
+La organizarea și desfășurarea olimpiadei au contribuit cadre didactice cu experiență și prestigiu academic, printre care:
+• Liubomir Chiriac – doctor habilitat, profesor universitar, șef de catedră;
+• Andrei Braicov – profesor universitar, decan al facultății;
+• Angela Globa, Ala Gașnaș, Natalia Joșu, Maria Pavel, Teodora Vascan – doctori, conferențiari universitari;
+• Marina Bostan, Olesea Sîrghi – lectori universitari, doctori în științe ale educației.
+
+În cadrul competiției au participat și studenți de la Universitatea de Stat „Alecu Russo” din Bălți, însoțiți de profesoara Olesea Skutnițki.
+
+Dintre studenții UPSC au fost premiați următorii participanți:
+
+Anul I:
+Goncear Vladimir – locul II;
+Didic Victoria, Movilă Ștefan, Sandu Mihai – locul III;
+Buză Maria-Magdalena – mențiune.
+
+Anul II–IV:
+Sandu Florin – locul I;
+Cantea Aura, Sârbu Daniela, Păduraru Laurențiu – locul II;
+Zalevschi Pavel, Josan Alexandru, Grecica Maxim, Zugravu Nicoleta, Pleșca Alexandrina – locul III;
+Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.`
+}
   },
   {
     date: '15 octombrie 1985',
