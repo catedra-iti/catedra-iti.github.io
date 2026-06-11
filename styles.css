@@ -511,6 +511,9 @@ body {
 .card p {
   margin: 0;
   color: var(--muted);
+  white-space: pre-line; /* Forțează browserul să respecte rândurile noi (Enter-urile) */
+  text-align: left;      /* Rezolvă alinierea și aduce textul la stânga, eliminând spațiile mari */
+  line-height: 1.5;      /* Opțional: face textul mai aerisit și mai ușor de citit */
 }
 
 .quick-link {
