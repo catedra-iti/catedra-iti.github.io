@@ -269,7 +269,7 @@ Sandu Florin – locul I;
 Cantea Aura, Sârbu Daniela, Păduraru Laurențiu – locul II;
 Zalevschi Pavel, Josan Alexandru, Grecica Maxim, Zugravu Nicoleta, Pleșca Alexandrina – locul III;
 Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.`
-}
+
   },
   {
     date: '15 octombrie 1985',
