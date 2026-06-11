@@ -1301,9 +1301,4 @@ body {
     transition-delay: 0ms !important;
     scroll-behavior: auto !important;
   }
-  .card-note {
-    white-space: pre-line;
-    text-align: left;       
-    line-height: 1.6;      
-}
 }
