@@ -270,7 +270,8 @@ const evenimenteIstorice = [
     '- Zalevschi Pavel, Josan Alexandru, Grecica Maxim, Zugravu Nicoleta, Pleșca Alexandrina – locul III;',
     '- Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.'
   ]
-}, {
+},
+  {
     date: '15 octombrie 1985',
     title: 'Constituirea Catedrei Informatică și Tehnică de Calcul',
     note: 'Prima catedră de informatică din Moldova, fondată în cadrul IPST/UST.'
