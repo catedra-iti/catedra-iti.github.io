@@ -413,7 +413,18 @@ const articoleNoutati = [
     content: 'Colectivul Catedrei Informatică și Tehnologii Informaționale din cadrul Universității Pedagogice de Stat „Ion Creangă" din Chișinău exprimă profundă apreciere pentru acordarea titlului de Membru corespondent al Academiei de Științe a Moldovei domnului doctor habilitat, profesor universitar, șef al catedrei Informatică și Tehnologii Informaționale, Liubomir CHIRIAC.\n\nDistincția conferită conturează impactul de durată al activității desfășurate, reflectând rigoarea profesională, spiritul inovator și rolul definitoriu în consolidarea și modernizarea învățământului superior.\n\nSunt adresate urări de sănătate, inspirație și rezultate remarcabile în activitatea viitoare.\n\nCu considerație,\nColectivul Catedrei Informatică și Tehnologii Informaționale\n\n***\n\nКоллектив кафедры информатики и информационных технологий ГБУ «Ion Creanga» г. Кишинев выражает глубокую признательность за присвоение звания члена-корреспондента Академии наук Молдовы одаренному доктору, профессору университета, заведующему кафедрой информационных технологий Любомиру ХИРИАК.\n\nВрученное отличие говорит о долговременном влиянии проводимой деятельности, отражающем профессиональную строгость, инновационный дух и определяющую роль в укреплении и модернизации.\n\nПожелания здоровья, вдохновения и замечательных результатов в будущей деятельности.\n\nС учетом того,\nКоллектив кафедры компьютерных и информационных технологий',
     photos: ['./foto%20catedra/corespondent.jpg'],
     pinned: true
-  }
+  },
+  {
+    id: 'n8',
+    dateIso: '2026-09-07',
+    displayDate: '7 septembrie 2026',
+    category: 'Conferință',
+    title: 'Conferința științifică internațională „Abordări inter/transdisciplinare în predarea științelor reale (concept STEAM)” — ediția a VI-a',
+    excerpt: 'UPSC „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” invită cadrele didactice, cercetătorii, studenții, masteranzii, doctoranzii și specialiștii interesați la ediția a VI-a a conferinței internaționale dedicate memoriei profesorului universitar Eugeniu Gheorghiță.',
+    content: 'Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” invită cadrele didactice, cercetătorii, studenții, masteranzii, doctoranzii și specialiștii interesați să participe la Conferința științifică internațională „Abordări inter/transdisciplinare în predarea științelor reale (concept STEAM)”, ediția a VI-a, dedicată memoriei profesorului universitar Eugeniu Gheorghiță.\\n\\nEvenimentul se va desfășura în perioada 30–31 octombrie 2026 și va constitui un important forum de schimb de experiență și de promovare a bunelor practici în domeniul educației și cercetării, cu accent pe abordările inter- și transdisciplinare și pe integrarea conceptului STEAM în procesul educațional.\\n\\nParticipanții sunt invitați să contribuie activ la lucrările conferinței și să valorifice această oportunitate pentru prezentarea rezultatelor cercetărilor, a experiențelor didactice și a bunelor practici.\\n\\nData desfășurării: 30–31 octombrie 2026\\n\\nOrganizatori: Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul”',
+    link: 'https://upsc.md/2026/09/07/conferinta-stiintifica-internationala-abordari-inter-transdisciplinare-in-predarea-stiintelor-reale-concept-steam-editia-a-vi-a-dedicata-memoriei-profesorului-universitar-eugeniu/',
+    pinned: true
+  },
 ];
 
 const noutatiSortate = [...articoleNoutati].sort(
@@ -1794,6 +1805,20 @@ function PaginaNoutati() {
               ${highlightedArticle.content.split('\n\n').map((para, i) =>
                 html`<p key=${i}>${para}</p>`
               )}
+              ${highlightedArticle.link
+                ? html`
+                    <div className="card-actions" style=${{ marginTop: '18px' }}>
+                      <a
+                        className="ghost-button"
+                        href=${highlightedArticle.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Pagina oficială a conferinței ↗
+                      </a>
+                    </div>
+                  `
+                : null}
               ${highlightedArticle.photos && highlightedArticle.photos.length > 0
                 ? html`
                     <div className="grid grid-3" style=${{ marginTop: '24px', gap: '8px' }}>
