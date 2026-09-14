@@ -2265,4 +2265,3 @@ if (rootElement) {
   ReactDOM.createRoot(rootElement).render(html`<${App} />`);
 }
 
-
