@@ -241,7 +241,24 @@ const studyPrograms = [
   }
 ];
 
-const evenimenteIstorice = [  
+const evenimenteIstorice =
+  [
+    {
+      date: '30-31 octombrie 2026',
+      title:'30-31 octombrie, 2026',
+      note: 'Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” invită cadrele didactice, cercetătorii, studenții, masteranzii, doctoranzii și specialiștii interesați să participe la Conferința științifică internațională „Abordări inter/transdisciplinare în predarea științelor reale (concept STEAM)”, ediția a VI-a, dedicată memoriei profesorului universitar Eugeniu Gheorghiță.
+
+Evenimentul se va desfășura în perioada 30–31 octombrie 2026 și va constitui un important forum de schimb de experiență și de promovare a bunelor practici în domeniul educației și cercetării, cu accent pe abordările inter- și transdisciplinare și pe integrarea conceptului STEAM în procesul educațional.
+
+Participanții sunt invitați să contribuie activ la lucrările conferinței și să valorifice această oportunitate pentru prezentarea rezultatelor cercetărilor, a experiențelor didactice și a bunelor practici.
+
+Informații suplimentare și detalii privind participarea:
+Pagina oficială a conferinței pe site-ul UPSC
+
+Data desfășurării: 30–31 octombrie 2026
+Organizatori: Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” '
+    }
+  ][  
 {
   date: '6 mai 2026',
   title: 'Olimpiada Interuniversitară de Informatică – ediția a XV-a',
