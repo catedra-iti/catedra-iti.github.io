@@ -147,7 +147,7 @@ const profesoriCatedra = [
   {
     name: 'Pînzari Dumitru',
     role: 'inginer-programator',
-    field: 'inginer progamator',
+    field: 'Dezvoltare software',
     subjects: '',
     email: 'pinzari.dumitru@upsc.md',
     researchTags: ['Programare']
@@ -241,59 +241,7 @@ const studyPrograms = [
   }
 ];
 
-const evenimenteIstorice =
-  [
-    {
-      date: '30-31 octombrie 2026',
-      title:'30-31 octombrie, 2026',
-      note: 'Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” invită cadrele didactice, cercetătorii, studenții, masteranzii, doctoranzii și specialiștii interesați să participe la Conferința științifică internațională „Abordări inter/transdisciplinare în predarea științelor reale (concept STEAM)”, ediția a VI-a, dedicată memoriei profesorului universitar Eugeniu Gheorghiță.
-
-Evenimentul se va desfășura în perioada 30–31 octombrie 2026 și va constitui un important forum de schimb de experiență și de promovare a bunelor practici în domeniul educației și cercetării, cu accent pe abordările inter- și transdisciplinare și pe integrarea conceptului STEAM în procesul educațional.
-
-Participanții sunt invitați să contribuie activ la lucrările conferinței și să valorifice această oportunitate pentru prezentarea rezultatelor cercetărilor, a experiențelor didactice și a bunelor practici.
-
-Informații suplimentare și detalii privind participarea:
-Pagina oficială a conferinței pe site-ul UPSC
-
-Data desfășurării: 30–31 octombrie 2026
-Organizatori: Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” '
-    }
-  ][  
-{
-  date: '6 mai 2026',
-  title: 'Olimpiada Interuniversitară de Informatică – ediția a XV-a',
-  note: [
-    'Facultatea de Fizică, Matematică și Tehnologii Informaționale a Universității Pedagogice de Stat "Ion Creangă" din Chișinău a organizat cu succes "Olimpiada interuniversitară de informatică – ediția a XV-a", un eveniment academic dedicat studenților pasionați de informatică, programare și tehnologii informaționale.',
-
-    'Evenimentul a fost organizat de către Catedra Informatică și Tehnologii Informaționale, una dintre subdiviziunile academice importante ale facultății, care contribuie activ la formarea specialiștilor în domeniul informaticii și al tehnologiilor digitale.',
-
-    'Cadre didactice organizatoare:',
-    '• Liubomir Chiriac – doctor habilitat, profesor universitar, șef de catedră, membru corespondent al AȘM;',
-    '• Andrei Braicov – profesor universitar, decan al facultății;',
-    '• Angela Globa, Ala Gașnaș, Natalia Joșu, Maria Pavel, Teodora Vascan – doctori, conferențiari universitari;',
-    '• Marina Bostan, Olesea Sârghi – lectori universitari, doctori în științe ale educației.',
-
-    'La competiție au participat și studenți de la Universitatea de Stat "Alecu Russo" din Bălți, însoțiți de prof. Olesea Skutnițki.',
-
-    'Rezultate studenți UPSC:',
-    'Anul I:',
-    '- Goncear Vladimir – locul II;',
-    '- Didic Victoria, Movilă Ștefan, Sandu Mihai – locul III;',
-    '- Buză Maria-Magdalena – mențiune.',
-
-    'Anul II–IV:',
-    '- Sandu Florin – locul I;',
-    '- Cantea Aura, Sârbu Daniela, Păduraru Laurențiu – locul II;',
-    '- Zalevschi Pavel, Josan Alexandru, Grecica Maxim, Zugravu Nicoleta, Pleșca Alexandrina – locul III;',
-    '- Șipitca Sergiu, Poșcai Anastasia, Lungu Loredana, Benderscaia Iulia, Midari Denis, Gudumac Ecaterina – mențiune.'
-  ]
-},
-  {
-    date: '15 octombrie 1985',
-    title: 'Constituirea Catedrei Informatică și Tehnică de Calcul',
-    note: 'Prima catedră de informatică din Moldova, fondată în cadrul IPST/UST.'
-  },
-  
+const evenimenteIstorice = [
   {
     date: '15 octombrie 1985',
     title: 'Constituirea Catedrei Informatică și Tehnică de Calcul',
@@ -430,18 +378,7 @@ const articoleNoutati = [
     content: 'Colectivul Catedrei Informatică și Tehnologii Informaționale din cadrul Universității Pedagogice de Stat „Ion Creangă" din Chișinău exprimă profundă apreciere pentru acordarea titlului de Membru corespondent al Academiei de Științe a Moldovei domnului doctor habilitat, profesor universitar, șef al catedrei Informatică și Tehnologii Informaționale, Liubomir CHIRIAC.\n\nDistincția conferită conturează impactul de durată al activității desfășurate, reflectând rigoarea profesională, spiritul inovator și rolul definitoriu în consolidarea și modernizarea învățământului superior.\n\nSunt adresate urări de sănătate, inspirație și rezultate remarcabile în activitatea viitoare.\n\nCu considerație,\nColectivul Catedrei Informatică și Tehnologii Informaționale\n\n***\n\nКоллектив кафедры информатики и информационных технологий ГБУ «Ion Creanga» г. Кишинев выражает глубокую признательность за присвоение звания члена-корреспондента Академии наук Молдовы одаренному доктору, профессору университета, заведующему кафедрой информационных технологий Любомиру ХИРИАК.\n\nВрученное отличие говорит о долговременном влиянии проводимой деятельности, отражающем профессиональную строгость, инновационный дух и определяющую роль в укреплении и модернизации.\n\nПожелания здоровья, вдохновения и замечательных результатов в будущей деятельности.\n\nС учетом того,\nКоллектив кафедры компьютерных и информационных технологий',
     photos: ['./foto%20catedra/corespondent.jpg'],
     pinned: true
-  },
-  {
-    id: 'n8',
-    dateIso: '2026-09-07',
-    displayDate: '7 septembrie 2026',
-    category: 'Conferință',
-    title: 'Conferința științifică internațională „Abordări inter/transdisciplinare în predarea științelor reale (concept STEAM)” — ediția a VI-a',
-    excerpt: 'UPSC „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” invită cadrele didactice, cercetătorii, studenții, masteranzii, doctoranzii și specialiștii interesați la ediția a VI-a a conferinței internaționale dedicate memoriei profesorului universitar Eugeniu Gheorghiță.',
-    content: 'Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul” invită cadrele didactice, cercetătorii, studenții, masteranzii, doctoranzii și specialiștii interesați să participe la Conferința științifică internațională „Abordări inter/transdisciplinare în predarea științelor reale (concept STEAM)”, ediția a VI-a, dedicată memoriei profesorului universitar Eugeniu Gheorghiță.\\n\\nEvenimentul se va desfășura în perioada 30–31 octombrie 2026 și va constitui un important forum de schimb de experiență și de promovare a bunelor practici în domeniul educației și cercetării, cu accent pe abordările inter- și transdisciplinare și pe integrarea conceptului STEAM în procesul educațional.\\n\\nParticipanții sunt invitați să contribuie activ la lucrările conferinței și să valorifice această oportunitate pentru prezentarea rezultatelor cercetărilor, a experiențelor didactice și a bunelor practici.\\n\\nData desfășurării: 30–31 octombrie 2026\\n\\nOrganizatori: Universitatea Pedagogică de Stat „Ion Creangă” din Chișinău și Institutul pentru Dezvoltare și Inițiative Sociale „Viitorul”',
-    link: 'https://upsc.md/2026/09/07/conferinta-stiintifica-internationala-abordari-inter-transdisciplinare-in-predarea-stiintelor-reale-concept-steam-editia-a-vi-a-dedicata-memoriei-profesorului-universitar-eugeniu/',
-    pinned: true
-  },
+  }
 ];
 
 const noutatiSortate = [...articoleNoutati].sort(
@@ -1611,8 +1548,8 @@ function PaginaStudenti() {
         ${[
           { file: 'Premianti Olimpada 2023.jpg', label: 'Premianți Olimpiadă 2023' },
           { file: 'Premianti Olimpada 2024.jpg', label: 'Premianți Olimpiadă 2024' },
-          { file: 'Premianti Olimpiada 2026(1).png', label: 'Premianți Olimpiadă 2026' },
-          { file: 'Premianti Olimpiada 2026(2).png', label: 'Premianți Olimpiadă 2026' },
+          { file: 'Premianti Olimpada 2026(1).png', label: 'Premianți Olimpiadă 2026' },
+          { file: 'Premianti Olimpada 2026(2).png', label: 'Premianți Olimpiadă 2026' },
         ].map(item => html`
           <a key=${item.file}
              href=${'./fotografii/' + encodeURIComponent(item.file)}
@@ -1822,20 +1759,6 @@ function PaginaNoutati() {
               ${highlightedArticle.content.split('\n\n').map((para, i) =>
                 html`<p key=${i}>${para}</p>`
               )}
-              ${highlightedArticle.link
-                ? html`
-                    <div className="card-actions" style=${{ marginTop: '18px' }}>
-                      <a
-                        className="ghost-button"
-                        href=${highlightedArticle.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Pagina oficială a conferinței ↗
-                      </a>
-                    </div>
-                  `
-                : null}
               ${highlightedArticle.photos && highlightedArticle.photos.length > 0
                 ? html`
                     <div className="grid grid-3" style=${{ marginTop: '24px', gap: '8px' }}>
@@ -2306,4 +2229,5 @@ const rootElement = document.getElementById('root');
 if (rootElement) {
   ReactDOM.createRoot(rootElement).render(html`<${App} />`);
 }
+
 
